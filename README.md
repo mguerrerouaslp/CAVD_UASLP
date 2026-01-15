@@ -18,11 +18,8 @@ Nuestra actividad se organiza en torno a la producción académica y la experime
 * **Artículos y Capítulos:** Coordinación de publicaciones en revistas indexadas y colaboraciones editoriales.
 * **Memorias de Congreso:** Organización y registro del *Congreso Virtual de Investigación en Diseño*.
 
-### 2. LEM (Laboratorio de Experimentación Multimedia)
-Espacio dedicado a la investigación aplicada y proyectos de experimentación visual y tecnológica.
-
-### 3. Proyectos Destacados
-* **Cartografía Visual de la Tipografía Mexicana:** Investigación sobre las 100 fuentes tipográficas premiadas.
+### 2. Proyectos Destacados
+* **Mapeo de la producción tipográfica mexicana:** Investigación que tiene como objetivo realizar un mapeo exhaustivo y sistemático de la producción tipográfica en México.
 * **Imagen y Complejidad:** Eje temático central de nuestras publicaciones y congresos recientes.
 
 ---
