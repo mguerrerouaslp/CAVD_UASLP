@@ -1,0 +1,264 @@
+
+.page_title2 {
+    position: relative;
+    padding: 54px 0 27px;
+    background-color: #000000;
+    margin: 0 0 30px;
+    background-position: 50% 0;
+    background-image: url(/educainox_ui/assets/img/bk.jpg) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+}
+
+.page_title2 h1 {
+    color: rgb(230, 230, 230);
+    margin-bottom: 23px;
+    font-size: 42px;
+    letter-spacing: -0.004em;
+    line-height: 45px;
+    padding: 10px 0 0;
+    text-transform: none;
+}
+
+
+
+/* Contenedor del formulario */
+.form-container {
+  margin-top: 20px;
+    max-width: 800px; /* Ancho máximo aumentado para acomodar dos columnas */
+    padding: 20px; /* Espaciado interno aumentado */
+    border: 1px solid #ccc; /* Borde alrededor del formulario */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #f9f9f9; /* Fondo claro */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: left; /* Alinear texto a la izquierda */
+    font-size: 18px; /* Tamaño de fuente */
+    color: #333; /* Color del texto */
+    margin-bottom: 10px; /* Separación del título */
+}
+
+/* Mensaje de éxito */
+.form-container .success-message {
+    color: #28a745; /* Verde para éxito */
+    font-size: 14px; /* Tamaño pequeño */
+    margin-bottom: 10px; /* Espaciado con otros elementos */
+    text-align: center; /* Centrar el mensaje */
+}
+
+/* Mensaje de error */
+.form-container .error-message {
+    color: #d9534f; /* Rojo para errores */
+    font-size: 14px; /* Tamaño pequeño */
+    margin-bottom: 10px; /* Espaciado con otros elementos */
+    text-align: center; /* Centrar el mensaje */
+}
+
+/* Etiquetas de los campos */
+.form-container label {
+    display: block; /* Bloque para que cada etiqueta esté en su propia línea */
+    font-size: 14px; /* Tamaño de fuente */
+    color: #555; /* Color del texto */
+    margin: 0 5px; /* Espaciado con el campo de entrada */
+    font-weight: normal;
+}
+
+/* Campos de entrada */
+.form-container input[type="text"],
+.form-container input[type="password"],
+.form-container input[type="email"],
+.form-container select {
+    width: 100%; /* Ocupar todo el ancho disponible */
+    padding: 8px; /* Espaciado interno */
+    margin: 5px 0 10px; /* Separación entre campos */
+    border: 1px solid #ccc; /* Borde alrededor del campo */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 14px; /* Tamaño de fuente */
+    box-sizing: border-box; /* Incluir el padding en el ancho total */
+    background-color: #fff; /* Fondo blanco para select */
+    appearance: none; /* Eliminar estilos por defecto en algunos navegadores */
+}
+
+/* Estilo para las opciones del select */
+.form-container select option {
+    padding: 10px; /* Espaciado interno */
+    font-size: 14px; /* Tamaño de fuente */
+    color: #555; /* Color del texto */
+    background-color: #fff; /* Fondo blanco */
+}
+
+/* Botón de enviar */
+.form-container button[type="submit"] {
+    width: 100%; /* Botón de ancho completo */
+    padding: 10px; /* Espaciado interno */
+    background-color: #1e4649; /* Color azul */
+    color: #fff; /* Texto blanco */
+    border: none; /* Sin bordes */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Mostrar el cursor de mano al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+/* Efecto hover en el botón */
+.form-container button[type="submit"]:hover {
+    background-color: #163a3c; /* Cambio de color al hacer hover */
+}
+
+.btn-custom {
+  background-color: #1e4649; /* Color de fondo personalizado */
+  color: white; /* Color del texto */
+  border: none; /* Sin borde */
+  padding: 10px 20px; /* Espaciado interno */
+  font-size: 16px; /* Tamaño de fuente */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor de puntero al pasar sobre el botón */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Transiciones suaves */
+}
+
+.btn-custom:hover {
+  background-color: #16363c; /* Color de fondo al pasar el cursor */
+  transform: translateY(-2px); /* Efecto de elevación */
+}
+
+.btn-custom:active {
+  background-color: #0f2b32; /* Color de fondo al hacer clic */
+  transform: translateY(0); /* Resetear efecto de elevación */
+}
+
+
+
+
+/* Fila del formulario para agrupar dos campos */
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre columnas */
+    margin-bottom: 15px; /* Espacio entre filas */
+}
+
+/* Grupo de formulario para cada campo */
+.form-group {
+    flex: 1; /* Cada grupo ocupa el mismo ancho */
+    min-width: 200px; /* Ancho mínimo para mantener la legibilidad */
+}
+
+/* Responsividad: En pantallas pequeñas, apilar las columnas */
+@media (max-width: 600px) {
+    .form-row {
+        flex-direction: column;
+    }
+
+    .form-group {
+        min-width: 100%;
+    }
+}
+
+
+
+/* Estilos para el iframe */
+.iframe-container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 0 30px;
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+iframe {
+    width: 100%;
+    height: 630px;
+    border: none;
+}
+
+/* Estilo general para la barra de navegación */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+/* Lista de navegación */
+.navbar-list {
+    list-style-type: none; /* Eliminar bullets */
+    display: flex;
+    gap: 20px;
+}
+
+ul.navbar-list li a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    margin: 0px;
+    color: #ffffff;        /* Color del texto */
+    font-family: Arial, sans-serif; /* Fuente del texto */
+    font-size: 16px;       /* Tamaño de la fuente */
+    padding: 10px 15px;    /* Espaciado interno para mayor área clicable */
+    display: block;        /* Permite que el enlace ocupe todo el espacio del li */
+    transition: background-color 0.3s; /* Transición suave para el hover */
+}
+
+ul.navbar-list li a:hover {
+    background-color: #575757; /* Color de fondo al pasar el cursor */
+    border-radius: 5px;        /* Bordes redondeados para el efecto hover */
+}
+/* Estilo para la pestaña activa */
+.navbar-list li a.active {
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-list {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+
+.widget_title {
+  border-top: 3px solid rgba(204, 204, 204, 0.5);
+}
+
+
+/* botones admin */
+
+.button-bar {
+      display: flex;
+      gap: 10px;
+    }
+
+    .button-bar a,
+    .button-bar form button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      background-color: #163a3c;
+      border: none;
+      border-radius: 5px;
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.5rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .button-bar a:hover,
+    .button-bar form button:hover {
+      background-color: #ccc;
+      color: #163a3c;
+    }
+
+    .button-bar form {
+      display: inline;
+      margin: 0;
+      padding: 0;
+    }
